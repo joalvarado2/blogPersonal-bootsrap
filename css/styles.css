@@ -1,0 +1,35 @@
+html{
+    font-size: 13px;
+}
+/* --------------------------------- */
+/*         PATRON DE COLORERS        */
+/* --------------------------------- */
+:root{
+    --color: #ff401c;
+    --border: #b52003;
+    --text: #44484a;
+}
+/* -------------------------------------------------- */
+/*   SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP        */
+/* -------------------------------------------------- */
+.bg-primary{
+    background-color: var(--color) !important;
+}
+.text-primary{
+    color: var(--color) !important;
+}
+.btn-primary{
+    background-color: var(--color);
+    border-color: var(--border);
+}
+.btn-primary:hover{
+    background-color: var(--border);
+    border-color: var(--color);
+}
+.card:hover{
+    box-shadow: 0 0 10px #0c0c0c3b;
+}
+body{
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+}
